@@ -1,9 +1,12 @@
 version: 0.1
 
 phases:
+  install:
+    runtime-versions:
+        php: 7.3
   build:
     commands:
-      - echo Nothing to do yet
+      - php --version
 artifacts:
   files:
     index.html
